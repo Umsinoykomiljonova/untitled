@@ -1,0 +1,129 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/open-sans-v40-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body{
+  font-family: 'Open Sans';
+ background-color: #08101E;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.contener{
+  width: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  width: 411px;
+}
+.link{
+  color: rgb(255, 255, 255);
+}
+.sgnup{
+  color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+/* border-radius: 5px; */
+background: rgb(58, 104, 184);
+padding: 15px 30px;
+}
+
+.securitiy{
+  display: flex;
+  align-items: center;
+}
+.securitiy-title{
+  color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 55px;
+font-weight: 800;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.securitiy-text{
+  color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 22px;
+}
+.securitiy-btn{
+  color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+padding: 14px 20px;
+background: rgb(58, 104, 184);
+}
+.securitiy-btem{
+  color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+padding: 14px 20px;
+background: rgb(58, 104, 184);
+}
